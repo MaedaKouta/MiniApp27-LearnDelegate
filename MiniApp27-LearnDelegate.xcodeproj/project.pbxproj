@@ -13,6 +13,8 @@
 		B9894A4327D77F2600A66B81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9894A4127D77F2600A66B81 /* Main.storyboard */; };
 		B9894A4527D77F2800A66B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9894A4427D77F2800A66B81 /* Assets.xcassets */; };
 		B9894A4827D77F2800A66B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9894A4627D77F2800A66B81 /* LaunchScreen.storyboard */; };
+		B9894A5027D77FFA00A66B81 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9894A4F27D77FFA00A66B81 /* TableViewCell.swift */; };
+		B9894A5227D783A700A66B81 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9894A5127D783A700A66B81 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B9894A4427D77F2800A66B81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9894A4727D77F2800A66B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9894A4927D77F2800A66B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9894A4F27D77FFA00A66B81 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B9894A5127D783A700A66B81 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				B9894A3B27D77F2600A66B81 /* AppDelegate.swift */,
 				B9894A3D27D77F2600A66B81 /* SceneDelegate.swift */,
+				B9894A4F27D77FFA00A66B81 /* TableViewCell.swift */,
 				B9894A3F27D77F2600A66B81 /* ViewController.swift */,
+				B9894A5127D783A700A66B81 /* SecondViewController.swift */,
 				B9894A4127D77F2600A66B81 /* Main.storyboard */,
-				B9894A4427D77F2800A66B81 /* Assets.xcassets */,
 				B9894A4627D77F2800A66B81 /* LaunchScreen.storyboard */,
+				B9894A4427D77F2800A66B81 /* Assets.xcassets */,
 				B9894A4927D77F2800A66B81 /* Info.plist */,
 			);
 			path = "MiniApp27-LearnDelegate";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9894A4027D77F2600A66B81 /* ViewController.swift in Sources */,
+				B9894A5027D77FFA00A66B81 /* TableViewCell.swift in Sources */,
 				B9894A3C27D77F2600A66B81 /* AppDelegate.swift in Sources */,
+				B9894A5227D783A700A66B81 /* SecondViewController.swift in Sources */,
 				B9894A3E27D77F2600A66B81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
